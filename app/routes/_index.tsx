@@ -1,4 +1,4 @@
-import type { MetaFunction } from "@remix-run/node";
+import type { MetaFunction } from "@remix-run/cloudflare";
 import { LuArrowDown, LuArrowRight, LuArrowUpRight, LuGithub, LuInstagram, LuLinkedin, LuMail, LuTwitter, LuX } from "react-icons/lu";
 
 export const meta: MetaFunction = () => {
