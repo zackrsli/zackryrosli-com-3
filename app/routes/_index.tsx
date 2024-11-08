@@ -1,5 +1,6 @@
 import type { MetaFunction } from "@remix-run/cloudflare";
 import { LuArrowDown, LuArrowRight, LuArrowUpRight, LuGithub, LuInstagram, LuLinkedin, LuMail, LuTwitter, LuX } from "react-icons/lu";
+import { SiKofi } from "react-icons/si";
 
 export const meta: MetaFunction = () => {
   return [
@@ -230,6 +231,9 @@ export default function Index() {
             </a>
             <a href="https://github.com/bukan-zack">
               <LuGithub />
+            </a>
+            <a href="https://ko-fi.com/bukan_zack">
+              <SiKofi />
             </a>
           </div>
           <p className="mt-4 text-sm">&copy; {new Date().getFullYear()} Zackry Rosli. All rights reserved.</p>
