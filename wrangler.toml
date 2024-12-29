@@ -1,0 +1,7 @@
+name = "zackryrosli-com"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "zackryrosli-com"
+database_id = "8f699684-2bd5-4ac7-84f4-19a5e54d30b4"
+migrations_dir = "./app/database/migrations"

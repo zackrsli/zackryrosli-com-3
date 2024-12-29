@@ -1,5 +1,5 @@
 import type { MetaFunction } from "@remix-run/cloudflare";
-import { LuArrowDown, LuArrowRight, LuArrowUpRight, LuGithub, LuInstagram, LuLinkedin, LuMail, LuTwitter, LuX } from "react-icons/lu";
+import { LuArrowDown, LuArrowRight, LuArrowUpRight, LuGithub, LuLinkedin, LuMail, LuTwitter, LuX } from "react-icons/lu";
 import { SiKofi } from "react-icons/si";
 
 export const meta: MetaFunction = () => {
@@ -12,7 +12,7 @@ export const meta: MetaFunction = () => {
 const workExperiences = [
   {
     position: "Software Engineer",
-    type: "Contract",
+    type: "Full-time",
     company: "Decube Data Sdn. Bhd.",
     light_logo: "./decube.png",
     duration: "May 2024 - Present",
@@ -104,10 +104,6 @@ export default function Index() {
               </a>
             </div>
           </div>
-          {/* <div className="relative group">
-            <img className="transition-transform duration-200 group-hover:translate-x-6 group-hover:translate-y-6 z-10 w-80 h-80 border-2 border-white" src="./zackryrosli.jpg" />
-            <img className="transition-transform hover:translate-x-10 duration-200 group-hover:translate-x-0 group-hover:translate-y-0 group-hover:z-10 -z-10 absolute inset-0 w-80 h-80 bg-stone-900 translate-x-6 translate-y-6 border-2 border-white" src="./armel.jpg" />
-          </div> */}
           <div className="relative group w-48 h-48 md:w-96 md:h-96 order-first md:order-last mx-auto col-span-3 md:col-span-1">
             <img 
               className="absolute transition-all duration-300 ease-in-out md:w-80 md:h-80 border-4 border-white group-hover:translate-x-6 group-hover:translate-y-6 z-10 group-hover:z-0 blur-none group-hover:blur-sm shadow-sm" 
