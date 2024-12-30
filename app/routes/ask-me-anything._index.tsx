@@ -51,7 +51,7 @@ export default function Index() {
           <Form method="POST" className="mt-6">
             <textarea name="message" className="border w-full p-6 hover:ring-2 hover:ring-atlantis-500" rows={10}>
             </textarea>
-            <button type="submit" disabled={loading} className="font-semibold transition duration-500 ease-in-out mt-2 hover:text-atlantis-500">
+            <button type="submit" disabled={loading} className="font-semibold transition duration-500 ease-in-out mt-2 hover:text-atlantis-500 text-left">
               {`<button type="submit" disabled="${loading}">Submit</button>`}
             </button>
             <p className="text-sm mt-1">
