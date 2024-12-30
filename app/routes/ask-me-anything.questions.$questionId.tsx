@@ -61,7 +61,7 @@ export default function Question() {
           </div>
         </section>
       </div>
-      <div className="hidden">
+      <div className="">
         <div className="p-6 max-w-[32rem] relative" ref={cardRef}>
           <div className="z-[-1] h-full w-full [background-image:url('/armel.jpg')] bg-center bg-contain absolute top-0 left-0 blur-sm"></div>
           <p className="p-6 mt-4 text-xl text-white bg-black/20">{question?.message}</p>
