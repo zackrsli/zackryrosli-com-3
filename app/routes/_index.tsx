@@ -42,12 +42,12 @@ const projects = [
   {
     name: "Next.js Certification Generator",
     description: "A painless way to generate a simple image of certification for events.",
-    link: "https://github.com/bukan-zack/nextjs-certgen",
+    link: "https://github.com/zackptr/nextjs-certgen",
   },
   {
     name: "go-otp",
     description: "An implementation of RFC 4226, and RFC 6238 for the Go programming language.",
-    link: "https://github.com/bukan-zack/go-otp",
+    link: "https://github.com/zackptr/go-otp",
   },
 ];
 
@@ -55,12 +55,12 @@ const articles = [
   {
     name: "Should I Use Frameworks in Go?",
     description: "We all know that Go is one of the popular programming languages...",
-    link: "https://blog.zackryrosli.com/should-i-use-frameworks-in-go",
+    link: "https://blog.zekr.my/should-i-use-frameworks-in-go",
   },
   {
     name: "Why Angular is Perfect for Web Development",
     description: "It isn't.",
-    link: "https://blog.zackryrosli.com/why-angular-is-perfect-for-web-development",
+    link: "https://blog.zekr.my/why-angular-is-perfect-for-web-development",
   },
 ];
 
@@ -98,7 +98,7 @@ export default function Index() {
                 <LuArrowDown className="md:text-xl transition-transform group-hover:translate-y-1" />
                 <span className="ml-4 transition-transform group-hover:translate-y-1">See My Work Experiences</span>
               </a>
-              <a href="https://x.com/zack_devel" className="group flex items-center">
+              <a href="https://x.com/zackptr" className="group flex items-center">
                 <LuArrowRight className="md:text-xl transition-transform group-hover:translate-x-1" />
                 <span className="ml-4 transition-transform group-hover:translate-x-1">Follow me on X</span>
               </a>
@@ -216,23 +216,23 @@ export default function Index() {
             maybe... even a surprise or two. Catch you up top!
           </p>
           <div className="flex flex-row gap-4 mt-4 text-2xl">
-            <a href="mailto:zack@terbang.lol">
+            <a href="mailto:hello@zekr.my">
               <LuMail />
             </a>
-            <a href="https://x.com/zack_devel">
+            <a href="https://x.com/zackptr">
               <LuTwitter />
             </a>
             <a href="https://linkedin.com/in/zackry-rosli">
               <LuLinkedin />
             </a>
-            <a href="https://github.com/bukan-zack">
+            <a href="https://github.com/zackptr">
               <LuGithub />
             </a>
-            <a href="https://ko-fi.com/bukan_zack">
+            <a href="https://ko-fi.com/zackptr">
               <SiKofi />
             </a>
           </div>
-          <p className="mt-4 text-sm">&copy; {new Date().getFullYear()} Zackry Rosli. All rights reserved.</p>
+          <p className="mt-4 text-sm">&copy; 2024 - {new Date().getFullYear()} Zackry Rosli. All rights reserved.</p>
         </div>
       </footer>
     </div>
