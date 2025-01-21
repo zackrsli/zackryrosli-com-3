@@ -22,7 +22,7 @@ const workExperiences = [
     type: "Part-time",
     company: "BerryByte Limited",
     light_logo: "./berrybyte.png",
-    duration: "Nov 2024 - March 2024",
+    duration: "Nov 2023 - March 2024",
   },
   {
     position: "Software Engineer",
