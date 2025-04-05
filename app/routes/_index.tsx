@@ -98,7 +98,7 @@ export default function Index() {
                 <LuArrowDown className="md:text-xl transition-transform group-hover:translate-y-1" />
                 <span className="ml-4 transition-transform group-hover:translate-y-1">See My Work Experiences</span>
               </a>
-              <a href="https://x.com/zackptr" className="group flex items-center">
+              <a href="https://x.com/zackrsli" className="group flex items-center">
                 <LuArrowRight className="md:text-xl transition-transform group-hover:translate-x-1" />
                 <span className="ml-4 transition-transform group-hover:translate-x-1">Follow me on X</span>
               </a>
@@ -219,7 +219,7 @@ export default function Index() {
             <a href="mailto:hello@zekr.my">
               <LuMail />
             </a>
-            <a href="https://x.com/zackptr">
+            <a href="https://x.com/zackrsli">
               <LuTwitter />
             </a>
             <a href="https://linkedin.com/in/zackry-rosli">
